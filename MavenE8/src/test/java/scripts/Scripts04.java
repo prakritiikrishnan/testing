@@ -2,10 +2,10 @@ package scripts;
 
 import org.testng.annotations.Test;
 
-import GenericLib.BaseClass;
-import GenericLib.Methods;
-import pom.BookPagePom;
-import pom.HomePagePom;
+import GenericLibrar.BaseClass;
+import GenericLibrar.Methods;
+import pomModel.BookPagePom;
+import pomModel.HomePagePom;
 
 public class Scripts04 extends BaseClass{
 	@Test

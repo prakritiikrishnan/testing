@@ -1,6 +1,4 @@
-package GenericLib;
-
-
+package GenericLibrar;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -9,6 +7,7 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -23,11 +22,9 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-import pom.BookPagePom;
-import pom.HomePagePom;
-import pom.LoginPagePom;
-
-
+import pomModel.BookPagePom;
+import pomModel.HomePagePom;
+import pomModel.LoginPagePom;
 
 public class BaseClass {
 	
@@ -79,6 +76,7 @@ public class BaseClass {
 	test.log(Status.INFO, "user has clicked on rememberme checkbox");
 	lp.getLoginButton().click();
 	test.log(Status.INFO, "user has clicked on logged-in button");
+//	Reporter.log("user has sucessfully logged-in", true);
 	}
 	
 	@AfterMethod(alwaysRun = true)

@@ -1,4 +1,4 @@
-package GenericLib;
+package GenericLibrar;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

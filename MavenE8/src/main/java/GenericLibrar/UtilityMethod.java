@@ -1,4 +1,4 @@
-package GenericLib;
+package GenericLibrar;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -2,8 +2,8 @@ package scripts;
 
 import org.testng.annotations.Test;
 
-import GenericLib.BaseClass;
-import GenericLib.Methods;
+import GenericLibrar.BaseClass;
+import GenericLibrar.Methods;
 
 public class Script05 extends BaseClass{
 
